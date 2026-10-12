@@ -1,16 +1,11 @@
-import type { SocialLinks } from '../types';
-import { withBase } from '../utils/withBase';
-
-export const socialLinks: SocialLinks = {
-  name: 'Sara Mohamed',
-  title: 'Flutter & Web Developer',
-  email: 'Sara367139@gmail.com',
+ email: 'Sara367139@gmail.com',
   github: 'https://github.com/sara367139-stack',
   currentPortfolio: 'https://sara367139-stack.github.io/sara-portfolio/',
   // [EDITABLE PLACEHOLDER] Replace with your actual LinkedIn profile URL
   linkedin: 'https://www.linkedin.com/in/your-profile-here',
   linkedinIsPlaceholder: true,
+  linkedin: 'https://www.linkedin.com/in/sara-mohamed-gomaa/',
+  linkedinIsPlaceholder: false,
   // [EDITABLE PLACEHOLDER] Optional WhatsApp link (e.g., https://wa.me/201000000000)
   whatsappPlaceholder: 'https://wa.me/201000000000',
   cvPath: withBase('/assets/cv/Sara_Mohamed_Resume.pdf'),
-};
