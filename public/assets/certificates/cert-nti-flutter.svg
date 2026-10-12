@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="flutterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Border & Background -->
+  <rect width="800" height="560" fill="url(#bgGrad)" rx="16" />
+  <rect x="24" y="24" width="752" height="512" fill="none" stroke="#334155" stroke-width="2" rx="12" />
+  <rect x="34" y="34" width="732" height="492" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6" rx="8" />
+
+  <!-- Issuer Header -->
+  <text x="400" y="90" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="4" fill="#94A3B8" text-anchor="middle">NATIONAL TELECOMMUNICATION INSTITUTE (NTI)</text>
+  <text x="400" y="115" font-family="'Cairo', system-ui, sans-serif" font-size="13" font-weight="600" fill="#64748B" text-anchor="middle">المعهد القومي للاتصالات</text>
+
+  <!-- Certificate Title -->
+  <text x="400" y="175" font-family="'Inter', system-ui, sans-serif" font-size="28" font-weight="800" letter-spacing="1" fill="#F8FAFC" text-anchor="middle">CERTIFICATE OF COMPLETION</text>
+  <text x="400" y="205" font-family="'Inter', system-ui, sans-serif" font-size="14" fill="#94A3B8" text-anchor="middle">This is proudly presented to</text>
+
+  <!-- Candidate Name -->
+  <text x="400" y="260" font-family="'Inter', system-ui, sans-serif" font-size="34" font-weight="800" fill="#60A5FA" text-anchor="middle">Sara Mohamed</text>
+  <line x1="220" y1="280" x2="580" y2="280" stroke="#475569" stroke-width="1.5" />
+
+  <!-- Program Details -->
+  <text x="400" y="325" font-family="'Inter', system-ui, sans-serif" font-size="15" fill="#CBD5E1" text-anchor="middle">for successfully completing the 2-Month Intensive Training Track in</text>
+  <text x="400" y="360" font-family="'Inter', system-ui, sans-serif" font-size="22" font-weight="700" fill="#38BDF8" text-anchor="middle">Mobile Application Development (Flutter &amp; Dart)</text>
+  <text x="400" y="390" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">Covering Flutter Architecture, Riverpod/Bloc, REST API Integration &amp; Cross-Platform Deployment</text>
+
+  <!-- Verification & Seal -->
+  <g transform="translate(400, 460)">
+    <circle cx="0" cy="0" r="32" fill="url(#goldGrad)" opacity="0.9" />
+    <circle cx="0" cy="0" r="26" fill="#0F172A" />
+    <text x="0" y="4" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="800" fill="#FCD34D" text-anchor="middle">VERIFIED</text>
+  </g>
+
+  <!-- Footer metadata -->
+  <text x="80" y="490" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#64748B">TRACK: Mobile Engineering</text>
+  <text x="80" y="508" font-family="'Inter', system-ui, sans-serif" font-size="11" fill="#475569">DURATION: 2 Months</text>
+
+  <text x="720" y="490" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#64748B" text-anchor="end">DATE: Summer 2024</text>
+  <text x="720" y="508" font-family="'Inter', system-ui, sans-serif" font-size="11" fill="#475569" text-anchor="end">ISSUER: NTI Egypt</text>
+</svg>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <title>Sara Mohamed | Flutter &amp; Web Developer</title>
+    <meta name="description" content="Portfolio of Sara Mohamed, a Computer Science student and Flutter &amp; Web Developer building modern mobile and web applications." />
+    <meta name="author" content="Sara Mohamed" />
+    <meta name="keywords" content="Sara Mohamed, Flutter Developer, Dart, Web Developer, React, Mobile Apps, Minya University, Portfolio" />
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sara Mohamed | Flutter &amp; Web Developer" />
+    <meta property="og:description" content="Portfolio of Sara Mohamed, a Computer Science student and Flutter &amp; Web Developer building modern mobile and web applications." />
+    <meta property="og:image" content="https://sara367139-stack.github.io/sara-portfolio/assets/projects/logitrack/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202026-09-16%20161759.png" />
+    <meta property="og:url" content="https://sara367139-stack.github.io/sara-portfolio/" />
+    
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sara Mohamed | Flutter &amp; Web Developer" />
+    <meta name="twitter:description" content="Portfolio of Sara Mohamed, a Computer Science student and Flutter &amp; Web Developer building modern mobile and web applications." />
+    <meta name="twitter:image" content="https://sara367139-stack.github.io/sara-portfolio/assets/projects/logitrack/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202026-09-16%20161759.png" />
+
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Color Scheme Meta & FOUC Prevention Script -->
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      (function() {
+        try {
+          const stored = localStorage.getItem('sara_theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          const theme = stored ? stored : (prefersDark ? 'dark' : 'light');
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {
+          // Fallback gracefully if localStorage is restricted
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-blue-500 selection:text-white transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

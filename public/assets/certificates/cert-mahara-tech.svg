@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="maharaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B" />
+      <stop offset="100%" stop-color="#27272A" />
+    </linearGradient>
+    <linearGradient id="goldGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="560" fill="url(#maharaBg)" rx="16" />
+  <rect x="24" y="24" width="752" height="512" fill="none" stroke="#3F3F46" stroke-width="2" rx="12" />
+  <rect x="34" y="34" width="732" height="492" fill="none" stroke="url(#goldGrad5)" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6" rx="8" />
+
+  <text x="400" y="90" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="4" fill="#A1A1AA" text-anchor="middle">MAHARA-TECH PLATFORM (مهارة-تك)</text>
+  <text x="400" y="115" font-family="'Cairo', system-ui, sans-serif" font-size="13" font-weight="600" fill="#71717A" text-anchor="middle">منصة مهارة تك للتعليم الرقمي</text>
+
+  <text x="400" y="175" font-family="'Inter', system-ui, sans-serif" font-size="28" font-weight="800" letter-spacing="1" fill="#F8FAFC" text-anchor="middle">CERTIFICATE OF COMPLETION</text>
+  <text x="400" y="205" font-family="'Inter', system-ui, sans-serif" font-size="14" fill="#A1A1AA" text-anchor="middle">Awarded to</text>
+
+  <text x="400" y="260" font-family="'Inter', system-ui, sans-serif" font-size="34" font-weight="800" fill="#FBBF24" text-anchor="middle">Sara Mohamed</text>
+  <line x1="220" y1="280" x2="580" y2="280" stroke="#52525B" stroke-width="1.5" />
+
+  <text x="400" y="325" font-family="'Inter', system-ui, sans-serif" font-size="15" fill="#E4E4E7" text-anchor="middle">for successful completion of technical coursework in</text>
+  <text x="400" y="360" font-family="'Inter', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FDE68A" text-anchor="middle">Database &amp; Web Fundamentals Track</text>
+  <text x="400" y="390" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#A1A1AA" text-anchor="middle">Relational Schema Modeling, SQL Queries, Normalization &amp; Web Essentials</text>
+
+  <g transform="translate(400, 460)">
+    <circle cx="0" cy="0" r="32" fill="url(#goldGrad5)" opacity="0.9" />
+    <circle cx="0" cy="0" r="26" fill="#18181B" />
+    <text x="0" y="4" font-family="'Inter', system-ui, sans-serif" font-size="9" font-weight="800" fill="#FCD34D" text-anchor="middle">VERIFIED</text>
+  </g>
+
+  <text x="80" y="490" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#A1A1AA">TRACK: Database Systems</text>
+  <text x="80" y="508" font-family="'Inter', system-ui, sans-serif" font-size="11" fill="#71717A">ISSUER: Mahara-Tech</text>
+
+  <text x="720" y="490" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#A1A1AA" text-anchor="end">YEAR: 2023</text>
+  <text x="720" y="508" font-family="'Inter', system-ui, sans-serif" font-size="11" fill="#71717A" text-anchor="end">CREDENTIAL: Verified</text>
+</svg>

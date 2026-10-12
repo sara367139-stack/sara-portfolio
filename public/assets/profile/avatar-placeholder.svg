@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="400" height="400" rx="40" fill="url(#avatarGrad)" />
+  <rect width="396" height="396" x="2" y="2" rx="38" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="8 6" />
+
+  <!-- Geometric Coding / Tech Elements -->
+  <circle cx="200" cy="160" r="85" fill="#1E293B" stroke="url(#accentGrad)" stroke-width="3" filter="url(#glow)" opacity="0.9" />
+  
+  <!-- Stylized Developer Avatar Silhouette / Monogram -->
+  <path d="M160 215 C160 175 240 175 240 215 C240 235 220 245 200 245 C180 245 160 235 160 215 Z" fill="#3B82F6" opacity="0.3" />
+  <circle cx="200" cy="145" r="42" fill="#E2E8F0" />
+  <path d="M135 275 C135 220 265 220 265 275 C265 295 240 310 200 310 C160 310 135 295 135 275 Z" fill="#94A3B8" />
+
+  <!-- Code brackets badge -->
+  <g transform="translate(140, 310)">
+    <rect width="120" height="36" rx="18" fill="#1E293B" stroke="#3B82F6" stroke-width="1.5" />
+    <text x="60" y="23" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#93C5FD" text-anchor="middle">&lt;Developer /&gt;</text>
+  </g>
+
+  <!-- Instruction note -->
+  <text x="200" y="370" font-family="system-ui, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">
+    Drop your photo here: /assets/profile/avatar.jpg
+  </text>
+</svg>
